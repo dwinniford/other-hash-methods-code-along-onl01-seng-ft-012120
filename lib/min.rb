@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries_array = groceries.map { |cat, item| item }
-  groceries_array.min 
+  groceries_array.sort.first 
 end
